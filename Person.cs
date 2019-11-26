@@ -1,6 +1,9 @@
-public class Person {
-  public string Name;
-  public void Introduce () {
-    Console.WriteLine ("Hello, my name is " + Name);
+namespace ClassesTraining {
+  public class Person {
+    public static int PeopleCount = 0;
+    public string Name;
+    public void Introduce () {
+      Console.WriteLine ("Hello, my name is " + Name);
+    }
   }
 }
