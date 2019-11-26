@@ -3,6 +3,7 @@ namespace ClassesTraining {
     public string Name;
     public int Id;
 
+    public Customer () { };
     public Customer (int id) {
       this.Id = id;
     };
